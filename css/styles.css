@@ -1,0 +1,209 @@
+html {
+	height: 1080px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: HelveticaNeue;
+
+
+}
+a {
+	text-decoration: none;
+}
+
+h4 {
+	color: gray;
+}
+
+/* Nav Bar styling*/
+
+#navigation {
+	height: 70px;
+	width: auto;
+	background-color: black;
+
+}
+.nav img {
+	vertical-align: middle;
+}
+
+#navigation a {
+	color: white;
+	padding: 10px;
+	line-height: 50px;
+}
+
+#navigation a:hover {
+	background-color: gray;
+	border-radius: 5px;
+} 
+
+#leftnav {
+	float: left;
+	margin-top: 5px;
+}
+
+#rightnav {
+	color: white;
+	display: block;
+	float: right;
+	line-height: 70px;
+	margin-right: 10px;
+	width: 160px;
+	height: 38px;
+}
+#rightnav a:hover {
+
+}
+
+
+/* body box styling*/
+
+.body {
+
+width: 1000px;
+margin: 0 auto;
+padding-top: 30px;
+
+
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/* Left Box Styling */
+
+.left_box {
+	float: left;
+	width: 675px;
+	height: 640px;
+	border: 1px solid gray;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px gray;
+	padding: 20px 20px 0 20px;
+	
+}
+
+#brain {
+	float: left;
+	width: 350px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+}
+.left_box p {
+	clear: both;
+}
+
+/* Right Box Styling */
+
+.right_box {
+	width: 260px;
+	height: 660px;
+	float: right;
+	border: 1px solid gray;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px gray;
+
+	
+}
+.right_box a img{
+	width: 27px;
+	height: 27px;
+	line-height: 27px;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+.right_box a {
+	color: gray;
+	padding: 10px;
+	margin: 20px;
+}
+.right_box h4 {
+	height: 55;
+	border-bottom: 1px solid gray;
+	text-align: center;
+	line-height: 55px;
+}
+hr {
+	margin-top: 30px;
+}
+
+/* footer */
+
+footer {
+	clear: both;
+	margin-top: 30px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.bottomleft {
+	float: left;
+	width: 675px;
+	height: 640px;
+	border-radius: 2px;
+	padding: 20px 20px 0 20px;
+}
+
+.social {
+	float: right;
+	width: 260px;
+	height: 660px;
+	line-height: 32px;
+	padding-top: 30px;	
+}
+
+.social_sprite span {
+	display: inline-block;
+	background-image: url("../img/social-sprite.png");
+	height: 32px;
+	width: 32px;
+	margin: 5px 35px 5px 20px;
+	line-height: 42px;
+	vertical-align: middle;
+}
+.social_sprite.facebook span{
+	background-position: 0 0;
+}
+.social_sprite.twitter span{
+	background-position: -32px 0;
+}
+.social_sprite.linkedin span{
+	background-position: 0 -32px;
+}
+.social_sprite.googleplus span {
+	background-position: -32px -64px;
+}
+
+/* Classroom Page Styling */
+
+.classroom {
+	width: 1000px;
+	height: 660px;
+	border: 1px solid gray;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px gray;
+	margin: 30px auto;
+}
+
+.classtext {
+	margin: 30px auto;
+	text-align: center;
+}
+h4.classtext {
+	width: 900px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid gray;
+}
+
+
+
